@@ -1,2 +1,2 @@
 # car-adds
-repositorio del proyecto 4 del bootcamp de triparten
+El presente proyecto es una aplicación web que utiliza los datos de anuncios de coches emitidos en los estados unidos. Presentando datos muestra, para que el usuario se de una idea de como esta organizada la información en una tabla. Presentando a continuación un botón para poder crear un histograma basado en los datos del odometro de los coches y otro botón que crea una grafica de dispeción que en el eje x pone la información del odometro y el el y pone la información del precio. Por ultimo presenta dos casillas de verificación para poder generer un hitograma basado en el año de los coches y otra grafica de dispeción donde el eje x es el modelo y el y el precio
