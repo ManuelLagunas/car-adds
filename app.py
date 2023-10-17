@@ -15,6 +15,7 @@ car_data['is_4wd'] = car_data['is_4wd'].fillna('Unknown')
 df_sample = car_data.head(20)
 
 #Configuración de la pagina web
+st.image('math.jpg')
 st.header('Car\'s add data analysis')
 st.subheader('Hello, thereeee')
 st.markdown('Welcome to the app!')
