@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import plotly_express as px
-import plotly.figure_factory as ff
+#import plotly.figure_factory as ff
 
 #Leemos los datos
 car_data = pd.read_csv('vehicles_us.csv')
@@ -20,17 +20,17 @@ st.header('Car\'s add data analysis')
 st.subheader('Hello, thereeee')
 st.markdown('Welcome to the app!')
 st.markdown('This app allows you to see in a graphic way the information about some car\'s add that was broadcast in the US. Hope you enjoy it')
-st.markdown('### First take a look to a sample of the data.')
+#st.markdown('### First take a look to a sample of the data.')
 
 #Funcionalidades de la pagina web
 
 #Tabla para visualizar los datos
-table_button = st.button('See the 20 firts rows of the table')
+#table_button = st.button('See the 20 firts rows of the table')
 
-if table_button:
-    st.write('Please see the sample table in the window that just open')
-    tab = ff.create_table(df_sample)
-    tab.show()
+#if table_button:
+#    st.write('Please see the sample table in the window that just open')
+#    tab = ff.create_table(df_sample)
+#    tab.show()
 
 
 #Botón para construir histogramas
